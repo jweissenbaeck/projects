@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaktive Webmap mit Leaflet</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-search/dist/leaflet-search.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <footer id="footer">
+      <div class="footer-links">
+        <a href="../AboutPage/about.html">About</a>
+        <a href="../DatenschutzPage/datenschutz.html">Datenschutz</a>
+        <a href="../Quellen/quellen.html">Quellen</a>
+        <a href="../Impressum/impressum.html">Impressum</a>
+      </div>
+    </footer>
+    <div id="map-popup">
+      <div id="popup-header">
+        <div id="popup-navigation">
+          <div class="popup-nav-item active" data-page="songs">
+            <strong>Songs</strong>
+          </div>
+          <div class="popup-nav-item" data-page="albums">
+            <strong>Alben</strong>
+          </div>
+        </div>
+        <div id="close-popup"><strong>x</strong></div>
+      </div>
+      <div id="popup-content" class="popup-content">
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://unpkg.com/leaflet-search/dist/leaflet-search.min.js"></script> 
+    <script src="script.js"></script>
+  </body>
+</html>

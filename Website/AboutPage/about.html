@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About - SpatialMusicViewer</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="navbar">
+        <img src="../Images/Potential Logo.png" alt="Profilbild" class="icon" />
+        <h2>SpatialMusicViewer</h2>
+        <a href="../Webmap/map.html">
+          <img
+            src="../Images/map_icon.png"
+            alt="Map Icon"
+            class="webmap-icon"
+          />
+        </a>
+        <p class="map-text">Zur Map</p>
+      </div>
+
+      <ul>
+        <li id="about"><a href="#">About</a></li>
+        <li><a href="../DatenschutzPage/datenschutz.html">Datenschutz</a></li>
+        <li><a href="../Quellen/quellen.html">Quellen</a></li>
+        <li><a href="../Impressum/impressum.html">Impressum</a></li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <section>
+        <h1>About</h1>
+        <h3>Thema & Zielgruppe</h3>
+        <p>
+          In diesem Projekt geht es darum, Spotify-Daten mit einer räumlichen
+          Ebene zu verknüpfen. Dabei werden wir versuchen, die täglichen &
+          wöchentlichen meist gestreamten Songs und Alben in jedem verfügbaren
+          europäischen Land zu visualisieren. Ziel dabei ist es, eine
+          interaktive Web-Map der europäischen Region zu kreieren und die
+          relevanten Daten mit Hilfe von Popups abzubilden.
+        </p>
+        <p>
+          Die Zielgruppen, die wir mit diesem Projekt erreichen wollen, sind
+          hauptsächlich musikinteressierte Personen, welche sich zu den schon
+          vorhandenen Daten eine räumliche Visualisierung wünschen.
+          Dementsprechend ist unser Projekt sowohl für jung als alt, Student
+          oder Nicht-Student.
+        </p>
+      </section>
+
+      <section>
+        <h3>Ablauf des Projekts</h3>
+        <p>
+          Mit Hilfe von Python wird eine Datenabfrage bei der Spotify-API
+          durchgeführt, welche uns die für dieses Projekt relevanten Daten
+          liefert. Anschließend werden diese Daten in eine CSV-Datei umgewandelt
+          und auf einer interaktiven Web-Map präsentiert.
+        </p>
+      </section>
+
+      <section>
+        <h3>Arbeitsaufteilung</h3>
+        <ul>
+          <li>Emily: Back-End</li>
+          <li>Jacob: Front-End</li>
+          <li>Sebastian: Visualisierung & Design</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Links</h3>
+        <ul>
+          <li>
+            <a href="https://git.sbg.ac.at/s1091913/wp24_spotifyspatialviewer">
+              SpatialMusicViewer auf GitLab
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://git.sbg.ac.at/s1091913/wp24_spotifyspatialviewer/-/wikis/Arbeitspakete"
+            >
+              Arbeitspakete des Projekts
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
